@@ -1,0 +1,11 @@
+<input type="text" id="myInput">
+<label id="myLabel"></label>
+
+<script>
+const inp1 = document.getElementById('myInput');
+const lab1 = document.getElementById('myLabel');
+
+inp1.addEventListener('change', () => {
+  lab1.textContent = inp1.value;
+});
+</script>
